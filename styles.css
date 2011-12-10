@@ -1,0 +1,232 @@
+html {
+	font-size: 62.5%;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Signika', sans-serif;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: absolute;
+	font-size: 2.0em;
+	padding: 2%;
+	color: white;
+	text-shadow: 2px 2px black;
+	z-index: 2;
+	font-family: Electrolize, sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+header h2 {
+	margin: 0;
+	font-size: 1.0em;
+	color: red;
+}
+
+article {
+	background: #222;
+	background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+	background: -moz-linear-gradient(top, #444, #111);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+section {
+	width: 80%;
+	background: white;
+	border: 1px solid black;
+	border-right: 3px solid black;
+	padding: 20px 20px;
+	margin: 0 0 50px 0;
+	position: absolute;
+	top: 155px;
+	right: 50px;
+	height: 370px;
+	-webkit-transform-origin: 100% 50%;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transform-origin: 100% 50%;
+	-moz-transition: all 2s ease-in-out;
+	-ms-transform-origin: 100% 50%;
+	-ms-transition: all 2s ease-in-out;
+	-o-transform-origin: 100% 50%;
+	-o-transition: all 2s ease-in-out;
+	font-size: 1.2em;
+	z-index: 3;
+	position: absolute;
+}
+
+.contentarea {
+	width: 78%;
+	height: 170px;
+}
+
+.halfcol {
+	width: 48%;
+	margin: 10px 1%;
+	float: left;
+}
+
+.thirdcol {
+	width: 30%;
+	margin: 10px 1%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.seemore {
+	margin-top: 15px; 
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+	text-align: right;
+}
+
+/**
+ * Main Section
+ */
+section#main {
+	
+}
+
+#toolbox {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#toolbox li {
+	display: inline-block;
+	margin: 10px;
+}
+
+#toolbox img {
+	max-width: 200px;
+	max-height: 50px;
+}
+
+#toolbox a {
+	border: none;
+}
+
+/**
+ * Work Section
+ */
+section#work {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+section#opensource {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+}
+
+section#connect {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+}
+
+#connect .contentarea a {
+	width: 100px;
+	height: 150px;
+	display: block;
+	text-align: center;
+	float: left;
+	border: none;
+}
+
+#connect .contentarea a img {
+	display: block;
+	margin: 0 auto;
+}
+
+section h2 {
+	font-family: 'Electrolize', sans-serif;
+	font-size: 1.8em;
+	color: black;
+	border-left: 5px solid red;
+	padding-left: 10px;
+}
+
+/**
+ * Called airbrush cos it covers blemishes. Get it?
+ */
+#airbrush {
+	background-color: #222;
+	position: absolute;
+	top: 155px;
+	right: -156px;
+	width: 412px;
+	height: 411px;
+	z-index: 5;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+}
+
+a {
+	color: red;
+	border-bottom: 1px dotted #999;
+	text-decoration: none;
+}
+
+.prev, .next {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	width: 105px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 1.4em;
+	bottom: 0px;
+	text-decoration: none;
+	color: #999;
+	position: absolute;
+}
+
+.prev {
+	left: 20px;
+}
+
+.next {
+	left: 130px;
+}
+
+.prev:hover, .next:hover {
+	border-top: 1px solid red;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+	color: red;
+}
+
+footer {
+	position: absolute;
+	width: 50%;
+	padding: 10px 30px;
+	background-color: #222;
+	bottom: 0;
+	z-index: 3;
+	color: #666;
+}
