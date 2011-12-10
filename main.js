@@ -39,7 +39,9 @@ function spinBlades(amount)
 		
 		$(this).css({
 			'-webkit-transform': newRotValue,
-			'-moz-transform': newRotValue
+			'-moz-transform': newRotValue,
+			'-ms-transform': newRotValue,
+			'-o-transform': newRotValue
 		});
 		
 		$(this).data('currentRotation', (currentRot + amount));
@@ -50,7 +52,9 @@ function spinBlades(amount)
 	var newAirRot		= 'rotate(' + (airCurrentRot + amount) + 'deg)';
 	airbrush.css({
 		'-webkit-transform': newAirRot,
-		'-moz-transform': newAirRot
+		'-moz-transform': newAirRot,
+		'-ms-transform': newAirRot,
+		'-o-transform': newAirRot
 	});
 	airbrush.data('currentRotation', (airCurrentRot + amount));
 }

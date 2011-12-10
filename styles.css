@@ -131,6 +131,7 @@ section#work {
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
 section#opensource {
@@ -138,6 +139,7 @@ section#opensource {
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 section#connect {
@@ -145,6 +147,7 @@ section#connect {
 	-moz-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
 	-o-transform: rotate(270deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 #connect .contentarea a {
