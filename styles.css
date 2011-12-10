@@ -33,7 +33,7 @@ header h2 {
 }
 
 article {
-	background: #222;
+	background-color: #222;
 	background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
 	background: -moz-linear-gradient(top, #444, #111);
 	position: absolute;
@@ -109,17 +109,17 @@ section#main {
 	text-align: center;
 }
 
-#toolbox li {
+#main a {
 	display: inline-block;
 	margin: 10px;
 }
 
-#toolbox img {
+#main img {
 	max-width: 200px;
 	max-height: 50px;
 }
 
-#toolbox a {
+#main a {
 	border: none;
 }
 
@@ -131,7 +131,7 @@ section#work {
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+/*	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);*/
 }
 
 section#opensource {
@@ -139,7 +139,7 @@ section#opensource {
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+/*	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
 }
 
 section#connect {
@@ -147,7 +147,7 @@ section#connect {
 	-moz-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
 	-o-transform: rotate(270deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+/*	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 }
 
 #connect .contentarea a {

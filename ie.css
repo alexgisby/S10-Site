@@ -1,0 +1,43 @@
+/**
+ * Stylesheet for IE 8 and below
+ * Shame we can't do the fancy rotation stuff for this browser :(
+ */
+
+body {
+	background: #222;
+	padding: 20px;
+}
+
+article, section, header, footer {
+	position: static;
+	z-index: auto;
+	display: block;
+}
+
+section {
+	width: 90%;
+	height: auto;
+	margin: 10px;
+	display: block;
+}
+
+.next, .prev {
+	display: none;
+}
+
+#airbrush {
+	display: none;
+}
+
+.contentarea {
+	width: auto;
+	height: auto;
+}
+
+.spinon {
+	display: none;
+}
+
+img {
+	border: none;
+}
